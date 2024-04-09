@@ -1,6 +1,6 @@
-# Adventures in Coding Blog
+# Adventures in Coding - III Blog
 
-## Website created as a blog for my adventures into the world of coding, front-end development, and app design. To be continually updated with content directly related to my coding and developer journey.
+## III stands for: Input Important Information. A website created as a blog for my adventures into the world of coding, front-end development, and app design. To be continually updated with content directly related to my coding and developer journey.
 
 Below is a short description explaining the what, why, and how of my project. I have use thed following questions as a guide:
 

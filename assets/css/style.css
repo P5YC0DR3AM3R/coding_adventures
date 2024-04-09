@@ -1,16 +1,20 @@
-blog.css
+style.css
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
 body {
   display: block;
   height: 100%;
   margin: 0px;
   padding: 0px;
+  background-color: #243447
+}
+
+#border {
+  height: 100%;
 }
 
 header {
@@ -28,15 +32,26 @@ div {
   display:block;
 }
 
+p {
+  font-size: 20px;
+}
+
 #main {
   display: flex;
 }
 
-#border {
+.form {
   display: flex;
-  flex-direction: column;
-  height: 100%;
+  width: 100%;
+  margin: 3px;
   border: solid black;
+}
+
+form {
+  display: block;
+  width: 80%;
+  margin: 5em auto;
+  
 }
 
 h1 {
@@ -45,19 +60,54 @@ h1 {
   margin-left: 30px;
 }
 
-h6 {
-  margin: 0px;
+h3 {
+  margin:2px;
 }
 
-p {
-  margin: 0px;
-  font-size: 20px;
+input, textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button {
+  width:100%;
+  padding: 10px 20px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(60, 60, 60);
+}
+
+.show {
+  display: block;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  margin:3px;
+}
+
+.hidden {
+  display: none;
+}
+
+.toggle {
+  border: solid black;
+  width: 420px;
 }
 
 /* Dark Mode */
 .dark {
   background-color:#243447;
   color: white;
+  height: 100vh;
 }
 
 /* Light Mode */
@@ -137,28 +187,4 @@ footer {
   text-align: center;
   margin: 3px;
   margin-top: 20px;
-}
-
-.blogsContainer {
-  display: block;
-  border: 1px solid #ccc;
-  padding: 3px;
-  margin: 0px;
-  width: 500px;
-}
-
-table {
-  margin: 10px;
-  height: 100%;
-}
-
-tr {
-  display: flex;
-  flex-direction: column;
-  border: solid black 2px;
-}
-
-td {
-  display: flex;
-  
 }

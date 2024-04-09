@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>III Blog</title>
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="container dark" id="border">
+        <header>
+            <h1>III Blog</h1>
+            <div class="switch">
+                <label class="switch col">
+                    <input type="checkbox" id="modeSwap">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </header>
+        <div id="main">
+            <section class="row toggle">
+                <img src="./assets/images/darkpic.png" id="darkpic">
+                <img src="./assets/images/lightpic.png" class="hidden" id="lightpic"> 
+            </section>
+            <section class="form">
+                <form id="blogForm">
+                    <h1>Input Important Information: (III)</h1>
+                    <h3>Name</h3>
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <h3>Title</h3>
+                    <input type="text" id="title" placeholder="Title" required>
+                    <h3>Blog Contribution</h3>
+                    <textarea id="content" placeholder="Content" rows="5" required></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </div>
+        <footer class="copystamp">
+            <h6>Made with ❤️️ by Micah Read</h6>
+            <p>&copy; 2024 P5YC0DR3AM3R CREATIONS</p>
+        </footer>
+    </div>
+  <script src="./assets/js/logic.js"></script>
+</body>
+</html>
