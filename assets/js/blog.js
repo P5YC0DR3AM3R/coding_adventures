@@ -24,11 +24,14 @@ blogs.forEach(blog => {
     const titleCell = row.insertCell(1);
     const contentCell = row.insertCell(2);
 
-    nameCell.textContent = blog.name;
-    titleCell.textContent = blog.title;
-    contentCell.textContent = blog.content;
+    nameCell.textContent = "Name: " + blog.name;
+    titleCell.textContent = "Title: " + blog.title;
+    contentCell.textContent = "Story: " + blog.content;
 });
 
 blogsContainer.appendChild(table);
 
-console.log(table)
+console.log(table);
+
+
+

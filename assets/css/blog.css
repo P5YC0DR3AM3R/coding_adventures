@@ -8,9 +8,10 @@ blog.css
 
 body {
   display: block;
-  height: 100%;
   margin: 0px;
   padding: 0px;
+  height: 100%;
+  background-color: #243447
 }
 
 header {
@@ -33,10 +34,7 @@ div {
 }
 
 #border {
-  display: flex;
-  flex-direction: column;
   height: 100%;
-  border: solid black;
 }
 
 h1 {
@@ -46,12 +44,15 @@ h1 {
 }
 
 h6 {
-  margin: 0px;
+  font-size: small;
 }
 
 p {
-  margin: 0px;
   font-size: 20px;
+}
+
+#main {
+  display: flex;
 }
 
 /* Dark Mode */
@@ -141,24 +142,56 @@ footer {
 
 .blogsContainer {
   display: block;
-  border: 1px solid #ccc;
+  border: 1px solid black;
   padding: 3px;
   margin: 0px;
   width: 500px;
 }
 
-table {
+/* Styling for dark mode */
+.dark .blogsContainer {
+  background-color: #243447;
+  color: white;
+}
+
+.dark table {
   margin: 10px;
   height: 100%;
 }
 
-tr {
+.dark tr {
   display: flex;
   flex-direction: column;
   border: solid black 2px;
+  margin: 30px;
 }
 
-td {
+.dark td {
   display: flex;
-  
+  font-size: larger;
+  margin: 5px;
+}
+
+/* Styling for light mode */
+.light .blogsContainer {
+  background-color: white;
+  color: black;
+}
+
+.light table {
+  margin: 10px;
+  height: 100%;
+}
+
+.light tr {
+  display: flex;
+  flex-direction: column;
+  border: solid black 2px;
+  margin: 30px;
+}
+
+.light td {
+  display: flex;
+  font-size: larger;
+  margin: 5px;
 }

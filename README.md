@@ -28,7 +28,8 @@ Code written in HTML5, CSS, and JavaScript to present as a website to use as an 
 
 https://p5yc0dr3am3r.github.io/coding_adventures/
 
-![Screenshot of final page](./assets/images/Screenshot.png)
+![Screenshot of final page](./assets/images/Screenshot_1.png)
+![Screenshot of final page](./assets/images/Screenshot_2.png)
 
 ## Credits
 

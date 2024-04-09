@@ -64,6 +64,10 @@ h3 {
   margin:2px;
 }
 
+h6 {
+  font-size: small;
+}
+
 input, textarea {
   display: block;
   width: 100%;
