@@ -13,10 +13,6 @@ body {
   background-color: #243447
 }
 
-#border {
-  height: 100%;
-}
-
 header {
   display: flex;
   position: relative;
