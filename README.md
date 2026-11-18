@@ -1,3 +1,9 @@
+> **Status:** classroom exercise, 2024. Not a Phygital-DevOps production app.
+>
+> Personal coding-journey blog, two static pages. No new posts. Content is the 2024 journal.
+>
+> 2026 baseline: secrets stay out of source, Actions are pinned, placeholder packages are gone, CI checks this tree.
+
 # Adventures in Coding - III Blog
 
 ## III stands for: Input Important Information. A website created as a blog for my adventures into the world of coding, front-end development, and app design. To be continually updated with content directly related to my coding and developer journey.
@@ -28,7 +34,7 @@ Code written in HTML5, CSS, and JavaScript to present as a website to use as an 
 
 https://p5yc0dr3am3r.github.io/coding_adventures/
 
-![Screenshot of final page](./assets/images/Screenshot_1.png)
+![Screenshot of final page](./assets/images/Screenshot_1.webp)
 ![Screenshot of final page](./assets/images/Screenshot_2.png)
 
 ## Credits
